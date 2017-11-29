@@ -31,7 +31,7 @@ Game::Game(MainWindow& wnd)
 	rng(std::random_device()()),
 	snek({2,2}),  // Location ??
 	goal(rng,brd,snek)
-{
+{//testing branch team explorer A1
 }
 
 void Game::Go()
